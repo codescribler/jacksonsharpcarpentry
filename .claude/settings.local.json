@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /c/Users/Danny/AutoProspect && PYTHONIOENCODING=utf-8 python skills/ui-ux-pro-max/scripts/search.py \"hero image text contrast overlay readability\" --domain ux -n 10)"
+    ]
+  }
+}
