@@ -1177,3 +1177,10 @@ h2.decorated::after {
 @media (max-width: 768px) {
     .demo-modal { padding: 32px 24px; }
 }
+
+/* ---- LAPTOP SCREEN OPTIMISATION (DRE-17) ---- */
+/* Targets 769px–1440px: standard laptop & notebook screens */
+@media (min-width: 769px) and (max-width: 1440px) {
+  .hero { min-height: min(78vh, 720px); }
+  :root { --section-pad: clamp(3.5rem, 5vw, 5rem); }
+}
